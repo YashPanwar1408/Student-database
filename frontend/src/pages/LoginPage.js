@@ -275,7 +275,7 @@ const LoginPage = ({ role }) => {
                 open={guestLoader}
             >
                 <CircularProgress color="primary" />
-                Please Wait
+                Please wait for a second
             </Backdrop>
             <Popup message={message} setShowPopup={setShowPopup} showPopup={showPopup} />
         </ThemeProvider>

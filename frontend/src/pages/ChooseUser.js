@@ -132,7 +132,7 @@ const ChooseUser = ({ visitor }) => {
         open={loader}
       >
         <CircularProgress color="inherit" />
-        Please Wait
+        Please Wait for a second
       </Backdrop>
       <Popup message={message} setShowPopup={setShowPopup} showPopup={showPopup} />
     </StyledContainer>
